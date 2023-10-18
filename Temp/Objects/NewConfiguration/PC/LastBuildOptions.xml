@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9" WorkingVersion="4.12"?>
+<RuleSetOptions UsesUTCTime="True">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\ashwac.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\hardware.hw" LastWriteTime="2023-10-18 09:26:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\ashwac.br&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*&quot; -c &quot;NewConfiguration&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -M IA32 -B G4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;NewConfiguration&quot; -T SG4 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\sysconf.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\hardware.hw" LastWriteTime="2023-10-18 09:26:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\Hardware.hw&quot;  -c &quot;NewConfiguration&quot; -sysconf -S &quot;PC&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\sysconf.br&quot; -T SG4 -B G4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;NewConfiguration&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\asfw.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\hardware.hw" LastWriteTime="2023-10-18 09:26:50" />
+    <Prerequisite ID="c:\brautomation\as412\upgrades\modified.txt" LastWriteTime="2023-10-10 08:32:32" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\Hardware.hw&quot;  -v V1.00.0 -S &quot;PC&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\asfw.br&quot; -T SG4 -B G4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;NewConfiguration&quot; -zip -s &quot;NewConfiguration&quot; -firmware -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\ashwd.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\hardware.hw" LastWriteTime="2023-10-18 09:26:50" />
+    <Prerequisite ID="c:\brautomation\as412\upgrades\modified.txt" LastWriteTime="2023-10-10 08:32:32" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\Hardware.hw&quot;  -v V1.00.0 -S &quot;PC&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\ashwd.br&quot; -T SG4 -B G4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;NewConfiguration&quot; -zip -s &quot;NewConfiguration&quot; -hwd -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\arconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\hardware.hw" LastWriteTime="2023-10-18 09:26:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\iomap.iom" LastWriteTime="2023-10-18 09:26:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\PC\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=10.11.12.1 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;NewConfiguration&quot; -v V1.00.0 -S &quot;PC&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B G4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;NewConfiguration&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\udbdef.br">
+    <Prerequisite ID="c:\brautomation\as412\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2023-06-02 09:31:52" />
+    <CommandLine Parameter="C:\BrAutomation\AS412\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br, $(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\udbdef.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\iomap.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\iomap.iom" LastWriteTime="2023-10-18 09:26:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\pvmap.vvm" LastWriteTime="2023-10-18 09:26:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\hardware.hw" LastWriteTime="2023-10-18 09:26:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\cpu.sw" LastWriteTime="2023-10-18 09:34:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\channelconfiguration.xml" LastWriteTime="2023-10-18 09:42:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\PC\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\PC\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\iomap.br&quot; -T SG4 -B G4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;NewConfiguration.PC&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata\tcdata.imx">
+    <Prerequisite ID="c:\brautomation\as412\as\technologypackages\textsystem\n.d\objectcatalog\elements\textconfig\template\tc.textconfig" LastWriteTime="2022-05-25 04:28:54" />
+    <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\TCData\TCData.imx&quot; -c &quot;C:\BrAutomation\AS412\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;C:\BrAutomation\AS\System\G0493&quot; &quot;C:\BrAutomation\AS412\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata\tcdata.s18d">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata\tcdata.imx" LastWriteTime="2023-10-18 09:42:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\TCData\TCData.imx&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\TCData\TCData.s18d&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata\tcdata.s18d" LastWriteTime="2023-10-18 09:42:02" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\TCData\TCData.s18d&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\TCData.br&quot; -t TextModule" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\role.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\accessandsecurity\userrolesystem\role.role" LastWriteTime="2023-10-18 09:26:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\PC\AccessAndSecurity\UserRoleSystem\Role.role&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\Role.br&quot; -zip -B G4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;NewConfiguration&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\user.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\accessandsecurity\userrolesystem\user.user" LastWriteTime="2023-10-18 09:26:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\PC\AccessAndSecurity\UserRoleSystem\User.user&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\User.br&quot; -zip -B G4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;NewConfiguration&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\fwrules.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\accessandsecurity\firewall\rules.firewallrules" LastWriteTime="2023-10-18 09:26:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\PC\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\FWRules.br&quot; -zip -B G4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;NewConfiguration&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\lamptest.ox" LastWriteTime="2023-10-18 09:41:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\cpu.per" LastWriteTime="2023-10-18 09:26:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\LampTest.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\NewConfiguration\PC\LT.ofs&quot; -T SG4 -M IA32 -B G4.93 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic4 -p 2 -s &quot;LampTest&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\lamptest.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\a.out" LastWriteTime="2023-10-18 09:41:58" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\LampTest.ox&quot; -T SG4 -r Cyclic4 -G V4.1.2  -B G4.93 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\cyclic.ld.o" LastWriteTime="2023-10-18 09:41:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\init.ld.o" LastWriteTime="2023-10-18 09:41:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\exit.ld.o" LastWriteTime="2023-10-18 09:41:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\_bur_pvdef.st.o" LastWriteTime="2023-10-18 09:41:58" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\Cyclic.ld.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\Init.ld.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\Exit.ld.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,C:\BrAutomation\AS\System\G0493\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\G0493\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\G0493\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\BrAutomation\AS\System\G0493\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\BrAutomation\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\cyclic.ld.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\lamptest\cyclic.ld" LastWriteTime="2023-10-18 09:38:50" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\LampTest\Cyclic.ld&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\Cyclic.ld.o&quot; -T SG4 -M IA32 -B G4.93 -G V4.1.2  -s &quot;LampTest&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\init.ld.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\lamptest\init.ld" LastWriteTime="2023-10-18 09:34:40" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\LampTest\Init.ld&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\Init.ld.o&quot; -T SG4 -M IA32 -B G4.93 -G V4.1.2  -s &quot;LampTest&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\exit.ld.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\lamptest\exit.ld" LastWriteTime="2023-10-18 09:34:40" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\LampTest\Exit.ld&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\Exit.ld.o&quot; -T SG4 -M IA32 -B G4.93 -G V4.1.2  -s &quot;LampTest&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\_bur_pvdef.st.o">
+    <Prerequisite ID="c:\brautomation\as412\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2022-05-25 04:28:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\cyclic.ld.o" LastWriteTime="2023-10-18 09:41:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\init.ld.o" LastWriteTime="2023-10-18 09:41:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\exit.ld.o" LastWriteTime="2023-10-18 09:41:58" />
+    <CommandLine Parameter="&quot;C:\BrAutomation\AS412\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\LampTest\_bur_pvdef.st.o&quot; -S &quot;Cyclic.ld&quot; &quot;Init.ld&quot; &quot;Exit.ld&quot;  -T SG4 -M IA32 -B G4.93 -G V4.1.2  -s &quot;LampTest&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\LampTest\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\NewConfiguration\PC\#cpu_tp.mak&quot; -k" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\newconfiguration\pc\transfer.lst">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\ashwac.br" LastWriteTime="2023-10-18 09:42:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\sysconf.br" LastWriteTime="2023-10-18 09:42:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\asfw.br" LastWriteTime="2023-10-18 09:42:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\ashwd.br" LastWriteTime="2023-10-18 09:42:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\arconfig.br" LastWriteTime="2023-10-18 09:42:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\udbdef.br" LastWriteTime="2023-06-02 09:31:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\iomap.br" LastWriteTime="2023-10-18 09:42:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata.br" LastWriteTime="2023-10-18 09:42:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\role.br" LastWriteTime="2023-10-18 09:42:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\user.br" LastWriteTime="2023-10-18 09:42:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\fwrules.br" LastWriteTime="2023-10-18 09:42:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest.br" LastWriteTime="2023-10-18 09:41:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\newconfiguration\pc\cpu.sw" LastWriteTime="2023-10-18 09:34:56" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\GettingStarted.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;NewConfiguration&quot; -i &quot;C:\BrAutomation\AS412&quot; -S &quot;PC&quot; -all -A &quot;AR000&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\NewConfiguration\PC\Cpu.sw&quot; -Z &quot;FMUExport: n.d, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=10.11.12.1 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
+  </Rule>
+</RuleSetOptions>

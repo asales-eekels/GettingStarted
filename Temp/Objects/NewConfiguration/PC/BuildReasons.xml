@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\udbdef.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\ashwac.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\arconfig.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata\tcdata.imx">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\cyclic.ld.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\init.ld.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\exit.ld.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest\lamptest.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\lamptest.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata\tcdata.s18d">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\role.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\user.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\fwrules.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\iomap.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\sysconf.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\asfw.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\tcdata.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\newconfiguration\pc\ashwd.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\newconfiguration\pc\transfer.lst">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+</BuildReasons>

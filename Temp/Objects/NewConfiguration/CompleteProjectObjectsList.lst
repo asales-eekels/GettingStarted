@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
+<Objects>
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133420952977303006" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133420948088539928"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133420948088570113"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133420948107550115" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133420948096750423" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133420948096683539"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133420948096720820"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133420948096750423"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133420948100313367" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133420948100246554"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133420948100283693"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133420948100313367"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133420948103824454" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133420948103754430"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133420948103784448"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133420948103816715"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133420948107450104" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133420948107340928"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133420948107372669"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133420948107409720"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\LampTest\IEC.prg"
+    LogicalPath="LampTest"
+    Type="Program"
+    LastWriteTime="133420952804825134" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\LampTest\Cyclic.ld"
+    LogicalPath="LampTest.Cyclic.ld"
+    Type="File"
+    LastWriteTime="133420955310023814"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\LampTest\Init.ld"
+    LogicalPath="LampTest.Init.ld"
+    Type="File"
+    LastWriteTime="133420952804694784"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\LampTest\Exit.ld"
+    LogicalPath="LampTest.Exit.ld"
+    Type="File"
+    LastWriteTime="133420952804735148"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\LampTest\Types.typ"
+    LogicalPath="LampTest.Types.typ"
+    Type="File"
+    LastWriteTime="133420952804764783"
+    Private="true" />
+  <Object
+    Path="C:\projects\GettingStarted\Logical\LampTest\Variables.var"
+    LogicalPath="LampTest.Variables.var"
+    Type="File"
+    LastWriteTime="133420954637155627"
+    Private="true" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\Config.pkg"
+    LogicalPath="NewConfiguration"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133420948140391616" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\Hardware.hw"
+    LogicalPath="NewConfiguration.Hardware.hw"
+    Type="File"
+    LastWriteTime="133420948108084825"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\Hardware.hwl"
+    LogicalPath="NewConfiguration.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133420948474011124"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\Cpu.pkg"
+    LogicalPath="NewConfiguration.PC"
+    Type="Cpu"
+    LastWriteTime="133420948110228585" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\Cpu.sw"
+    LogicalPath="NewConfiguration.PC.Cpu.sw"
+    Type="File"
+    LastWriteTime="133420952977393406"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\Cpu.per"
+    LogicalPath="NewConfiguration.PC.Cpu.per"
+    Type="File"
+    LastWriteTime="133420948108579183"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\IoMap.iom"
+    LogicalPath="NewConfiguration.PC.IoMap.iom"
+    Type="File"
+    LastWriteTime="133420948108599201"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\PvMap.vvm"
+    LogicalPath="NewConfiguration.PC.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133420948108609191"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\Connectivity\Package.pkg"
+    LogicalPath="NewConfiguration.PC.Connectivity"
+    Type="Package"
+    LastWriteTime="133420948108960272" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="NewConfiguration.PC.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133420948108904690" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="NewConfiguration.PC.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133420948108960272" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\TextSystem\Package.pkg"
+    LogicalPath="NewConfiguration.PC.TextSystem"
+    Type="Package"
+    LastWriteTime="133420948109015566" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\UnitSystem\Package.pkg"
+    LogicalPath="NewConfiguration.PC.UnitSystem"
+    Type="Package"
+    LastWriteTime="133420948109065578" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133420948109772527" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133420948109245809" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133420948109204736"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133420948109235817"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133420948109637177" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133420948109447199" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133420948109386682" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133420948109437129" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133420948109547191" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133420948109537178" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133420948109587619" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133420948109637177" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133420948109687178" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133420948109772527" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="NewConfiguration.PC.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133420948109772527"
+    Private="false" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappControl\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappControl"
+    Type="Package"
+    LastWriteTime="133420948109823205" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappMotion\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappMotion"
+    Type="Package"
+    LastWriteTime="133420948109892576" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappServices\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappServices"
+    Type="Package"
+    LastWriteTime="133420948109938804" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappSafety\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappSafety"
+    Type="Package"
+    LastWriteTime="133420948110068586" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133420948110028577" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133420948110068586" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappView\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappView"
+    Type="Package"
+    LastWriteTime="133420948110120245" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappVision\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappVision"
+    Type="Package"
+    LastWriteTime="133420948110168585" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\PC\mappCockpit\Package.pkg"
+    LogicalPath="NewConfiguration.PC.mappCockpit"
+    Type="Package"
+    LastWriteTime="133420948110218584" />
+  <Object
+    Path="C:\projects\GettingStarted\Physical\NewConfiguration\Hardware.jpg"
+    LogicalPath="NewConfiguration.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133420948474286729"
+    Private="false" />
+</Objects>
