@@ -3,3 +3,7 @@
 
 # ignore ALL files in ANY directory named Temp
 Temp/
+
+# ignore ALL files in ANY directory named Diagnosis
+Diagnosis/
+
