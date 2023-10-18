@@ -1,8 +1,4 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	Lamp : BOOL;
+	Switch : BOOL;
 END_VAR
